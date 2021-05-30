@@ -1,7 +1,7 @@
 
 const express = require('express')
 const app = express()
-const { products } = require('./data')
+
 
 
 
@@ -13,6 +13,19 @@ app.listen(5000, () => {
 
 
 
+// const logger = require('./logger')
+
+
+// app.use(logger)
+
+
+// app.get('/', (req, res) => {
+//     res.send('hi')
+// })
+
+// app.get('/about', (req, res) => {
+//     res.send('about')
+// })
 
 // app.get('/', (req, res) => {
 //     res.send('<h1>home page</h1> <a href="/api/products">Products</a>')
